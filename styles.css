@@ -1,0 +1,236 @@
+/*
+dark background color(hero and footer
+#1F2937
+
+Hero Main text("this website is awesome")
+48px extra-bold, #F9FAF8
+
+Hero Secondary text, Header Link Text
+18px #E5E7EB
+
+Header Logo Text
+24px, #F9FAF8
+
+Button color, call to action background color
+#3882F6
+
+information header text
+36px extra-bold #1F2937
+
+Quote section background color
+#E5E7EB
+
+Quote text 
+36px light italic, #1F2937
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1F2937 ;
+}
+
+.wrapper{
+    margin: 0 250px 0 250px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom:  100px;
+}
+
+.logo{
+    margin-right: auto;
+    font-size:  24px;
+    color: #F9FAF8;
+    text-transform: capitalize;
+}
+
+.nav-links li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 50px;
+    padding-top: 5px;
+    text-transform: capitalize;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.nav-links li a:hover{
+    color: #3882F6;
+    text-decoration: underline;
+}
+
+.content-one{
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.content-one-maintext h2{
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 20px;
+}
+
+.content-one-maintext p{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px
+}
+
+.content-one-maintext button{
+    padding: 5px  25px;
+    margin-top: 15px;
+    background-color: #3882F6;
+    border: 3px solid #3882F6;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.content-one-maintext button:hover{
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.content-one-image img{
+    margin-right: auto;
+    height: 250px;
+    width: max-content;
+}
+
+.content-two{
+    background-color: #F9FAF8;
+    width: 100%;
+    height: 450px;
+}
+
+.content-two h2{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.content-two-main{
+    display: flex;
+    justify-content: center;
+    margin-top:  50px;;
+
+}
+
+.hero-content{
+    height:  170px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    margin: 0 50px;
+}
+
+.hero-content img{
+    align-content: center;
+    height: 130px;
+    width: 130px;
+    margin: 10px 10px;
+    
+}
+
+.hero-content .hero-text{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-three {
+    height: 300px;
+    width: 100%;
+    background-color:  #E5E7EB;
+    padding-top: 120px;
+
+}
+
+.content-three .main-text{
+    text-align: left;
+    color:#1F2937;
+    font-size: 36px;
+    font-style: italic;
+    margin: 0 450px;
+}
+
+.content-three .secondary-text{
+    text-align: right;
+    margin: 10px 500px;
+    font-weight: bold;
+}
+.wrapper-two{
+    background-color: white;
+}
+
+.content-four{
+    height: 200px;
+    padding-top: 100px;
+    margin: 0px 250px;
+}
+
+.content-four .main-content{
+    background-color: #3882F6;
+    height: 130px;
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.content-four .main-text{
+    margin-left: 130px;
+    color:#E5E7EB;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-four .signup-btn{
+  position: relative;
+  left: 35%;
+}
+
+.content-four button{
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px
+}
+
+.content-four button:hover{
+    background-color: #E5E7EB;
+    color:#3882F6;
+    border: 2px solid #3882F6;
+}
+
+footer{
+    height: 70px;
+    color: #E5E7EB;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:#3882F6;
+}
